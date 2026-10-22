@@ -1,0 +1,23 @@
+[
+    {
+        "Model": "Persistence Baseline",
+        "MAE (ug/m3)": 13.144,
+        "RMSE (ug/m3)": 26.116,
+        "R2_Score": 0.9436,
+        "MAPE (%)": 32.71
+    },
+    {
+        "Model": "Ridge Regression",
+        "MAE (ug/m3)": 12.35,
+        "RMSE (ug/m3)": 24.199,
+        "R2_Score": 0.9516,
+        "MAPE (%)": 35.25
+    },
+    {
+        "Model": "Deep Learning MLP (MLP_Large)",
+        "MAE (ug/m3)": 11.865,
+        "RMSE (ug/m3)": 22.797,
+        "R2_Score": 0.9571,
+        "MAPE (%)": 30.91
+    }
+]

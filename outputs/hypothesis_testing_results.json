@@ -1,0 +1,25 @@
+{
+    "Kruskal_Wallis_Stations": {
+        "test": "Kruskal-Wallis H-test across 12 Monitoring Stations",
+        "statistic": 3548.99,
+        "p_value": 0.0,
+        "conclusion": "Significant spatial heterogeneity across monitoring stations (p < 0.001)."
+    },
+    "ANOVA_Seasons": {
+        "test": "One-Way ANOVA across 4 Seasons for PM2.5",
+        "F_statistic": 2710.16,
+        "p_value": 0.0,
+        "conclusion": "Significant seasonal variation in PM2.5 concentrations (p < 0.001)."
+    },
+    "Mann_Whitney_Winter_vs_Summer": {
+        "test": "Mann-Whitney U Test: Winter vs Summer PM2.5",
+        "U_statistic": 117171606.0,
+        "p_value": 4.694922944602535e-10,
+        "winter_mean": 95.78,
+        "summer_mean": 64.97,
+        "winter_median": 55.0,
+        "summer_median": 51.0,
+        "cohens_d": 0.36,
+        "conclusion": "Winter PM2.5 (mean=95.8 ug/m3) is significantly higher than Summer (mean=65.0 ug/m3), with medium-to-large effect size (d=0.360, p < 0.001)."
+    }
+}

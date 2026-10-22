@@ -1,0 +1,21 @@
+{
+    "variable": "Monthly Exceedance Days (PM2.5 > 75 ug/m3)",
+    "sample_size_station_months": 576,
+    "sample_mean": 12.267,
+    "sample_variance": 18.961,
+    "dispersion_ratio (Var/Mean)": 1.546,
+    "poisson_fit": {
+        "lambda": 12.267,
+        "log_likelihood": -1709.57,
+        "aic": 3421.15,
+        "bic": 3425.51
+    },
+    "negative_binomial_fit": {
+        "r_dispersion_param": 19.785,
+        "p_probability": 0.617,
+        "log_likelihood": -1674.64,
+        "aic": 3353.27,
+        "bic": 3361.98
+    },
+    "comparison_summary": "Overdispersion is present (Var/Mean = 1.546 > 1.0). Formal comparison supports the Negative Binomial model (AIC = 3353.3) over the equidispersed Poisson model (AIC = 3421.1) with Delta-AIC = 67.9."
+}

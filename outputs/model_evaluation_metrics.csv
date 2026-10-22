@@ -1,0 +1,4 @@
+Model,MAE (ug/m3),RMSE (ug/m3),R2_Score,MAPE (%)
+Persistence Baseline,13.144,26.116,0.9436,32.71
+Ridge Regression,12.35,24.199,0.9516,35.25
+Deep Learning MLP (MLP_Large),11.865,22.797,0.9571,30.91

@@ -1,0 +1,37 @@
+[
+    {
+        "config_name": "MLP_Small",
+        "hidden_layers": [
+            64,
+            32
+        ],
+        "learning_rate": 0.001,
+        "val_mse": 184.099,
+        "val_rmse": 13.568,
+        "epochs_trained": 16
+    },
+    {
+        "config_name": "MLP_Medium",
+        "hidden_layers": [
+            128,
+            64,
+            32
+        ],
+        "learning_rate": 0.001,
+        "val_mse": 186.843,
+        "val_rmse": 13.669,
+        "epochs_trained": 9
+    },
+    {
+        "config_name": "MLP_Large",
+        "hidden_layers": [
+            256,
+            128,
+            64
+        ],
+        "learning_rate": 0.0005,
+        "val_mse": 182.715,
+        "val_rmse": 13.517,
+        "epochs_trained": 17
+    }
+]

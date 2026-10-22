@@ -1,0 +1,23 @@
+{
+    "total_records": 420768,
+    "total_columns": 18,
+    "total_stations": 12,
+    "stations_list": [
+        "Aotizhongxin",
+        "Changping",
+        "Dingling",
+        "Dongsi",
+        "Guanyuan",
+        "Gucheng",
+        "Huairou",
+        "Nongzhanguan",
+        "Shunyi",
+        "Tiantan",
+        "Wanliu",
+        "Wanshouxigong"
+    ],
+    "duplicate_records": 0,
+    "total_missing_cells": 74027,
+    "highest_missing_feature": "CO",
+    "highest_missing_pct": 4.9198132937866
+}
